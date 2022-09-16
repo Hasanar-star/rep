@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit card</title>
+</head>
+<body>
+    <p>Enter the card number</p>
+    <input
+    type="text"
+    id="cred"
+
+    
+    placeholder="**** **** **** ****"
+    onkeypress="formateCardNumber(event)"
+   onkeypress="mynum()"
+   
+    onclick="view()"
+    />
+    <p>Card number with only last 4 digits visible :</p>
+    <h1 id="display"></h1>
+</div>
+
+<div>
+    <button onclick="show_number(event)" id="show ">show_number</button><br><br>
+</div>
+<p>Card number without hiding :</p>
+<div>
+    <h2 id="a"></h2>
+</div>
+<div>
+    <h1 id="b"></h1>
+</div> 
+
+
+
+
+
+</body>
+<script src="./cred.js"></script>
+</html>
